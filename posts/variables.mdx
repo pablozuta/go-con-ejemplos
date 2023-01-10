@@ -1,6 +1,6 @@
 ---
 title: Variables
-date: 3
+date: 03-01-2023
 ---
 
 En Go, las variables son declaradas explicitamente y usadas por el compiler para por ejemplo verificar un correcto uso de types en las llamadas de funciones.
@@ -27,5 +27,24 @@ func main() {
     f := "apple"
     fmt.Println(f)
 }
+```
+var declara una o mas variables.
+
+Puedes declarar varias variables de una vez.
+
+Go va a inferir el tipo de variables inicializadas.
+
+Las variables que sean declaradas sin ser inicializadas son _zero-values_ . Por ejemplo,
+el _zero-value_ de un integer es 0.
+
+La sintaxis := es una manera mas corta para declarar e inicializar una variable. Por ejemplo en este caso "var f string = "apple".
+
+```
+$ go run variables.go
+initial
+1 2
+true
+0
+apple
 ```
 
