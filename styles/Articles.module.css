@@ -1,0 +1,23 @@
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.list li {
+  margin-bottom: -1rem;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+.tags {
+  font-size: 0.95rem;
+}
+.tags a:after {
+  content: " . ";
+}
+.tags a:last-child:after {
+  content: "";
+}
