@@ -7,7 +7,7 @@ import rehypeSlug from "rehype-slug";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import rehypeHighlight from "rehype-highlight";
 import { getPostFromSlug, getSlugs, PostMeta } from "@/src/api";
-import "highlight.js/styles/googlecode.css";
+import "highlight.js/styles/atom-one-dark.css";
 
 interface MDXPost {
   source: MDXRemoteSerializeResult<Record<string, unknown>>;
