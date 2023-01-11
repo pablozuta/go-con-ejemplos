@@ -12,22 +12,21 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <div className="container">
       <Head>
-        <title>Go Con Ejemplos</title>
+        <title>Go by Example</title>
       </Head>
       <nav className="barra-navegacion">
         <div className="go-con-ejemplos">
-        <Link href="/">
-          <Image
-            className="imagen-logo"
-            src={go}
-            alt="logo of go"
-            width={widthLogo}
-            height={heightLogo}
-          ></Image>
+          <Link href="/">
+            <Image
+              className="imagen-logo"
+              src={go}
+              alt="logo of go"
+              width={widthLogo}
+              height={heightLogo}
+            ></Image>
           </Link>
-          
-            <h3 className="home blog-title">CON EJEMPLOS </h3>
-          
+
+          <h3 className="home blog-title">BY EXAMPLE </h3>
         </div>
 
         <div className="barra-navegacion-iconos">

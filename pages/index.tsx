@@ -9,12 +9,19 @@ export default function Home({ posts }: { posts: PostMeta[] }) {
   const GO_BY_EXAMPLE = "https://gobyexample.com/";
   return (
     <>
-    <p><Link href={GO}>Go</Link> es un lenguaje de programacion open source diseñado para construir software simple , rapido y seguro.</p>
-    <p>Se recomienda leer la <Link href={GO_DOCS} >Documentacion </Link>
-    oficial para aprender sobre codigo en Go , tool packages y modulos.</p>
+      <p>
+        <Link href={GO}>Go</Link> is an open source programming language
+        designed for building simple, fast, and reliable software. Please read
+        the official <Link href={GO_DOCS}>Documentation </Link>
+        to learn a bit about Go code, tools packages, and modules.
+      </p>
+      <p>
+        <em>
+          Go by Example is a hands-on introduction to Go using annotated example
+          programs.
+        </em>
+      </p>
       <Articles posts={posts} />
-      <p> Esta pagina es una traduccion al español de <Link href={GO_BY_EXAMPLE}>Go by Example</Link></p>
-      <p><em>"Go by Example is a hands-on introduction to Go using annotated example programs."</em></p>
     </>
   );
 }

@@ -1,10 +1,9 @@
 ---
-title: Valores
+title: Values
 date: 02-01-2023
-
 ---
 
-Go tiene varios tipos de valores incluyendo strings, integers, floats, boolens, etc. Aca hay algunos ejemplos basicos.
+Go has various value types including strings, integers, floats, booleans, etc. Here are a few basic examples.
 
 ```go
 package main
@@ -12,22 +11,20 @@ package main
 import "fmt"
 
 func main() {
-
+    
+    // Strings, which can be added together with +.
     fmt.Println("go" + "lang")
 
+    // Integers and floats.
     fmt.Println("1+1 =", 1+1)
     fmt.Println("7.0/3.0 =", 7.0/3.0)
 
+    // Booleans, with boolean operators as you’d expect.
     fmt.Println(true && false)
     fmt.Println(true || false)
     fmt.Println(!true)
 }
 ```
-Strings, las cuales pueden ser concatenadas con el signo +.
-
-Integers y floats.
-
-Booleans, con operaciones booleanas como es de esperarse.
 
 ```
 $ go run values.go
@@ -38,4 +35,3 @@ false
 true
 false
 ```
-
