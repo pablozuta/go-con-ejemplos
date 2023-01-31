@@ -41,6 +41,14 @@ function MyApp({ Component, pageProps }: AppProps) {
       </nav>
 
       <Component {...pageProps} />
+      <div className="links-card">
+        <p>by</p>
+      <Link href={"https://markmcgranaghan.com/"}> Mark McGranaghan</Link>
+      <p>and</p>
+      <Link href={"https://eli.thegreenplace.net/"}>Eli Bendersky</Link>
+      <Link href={"https://github.com/mmcgrana/gobyexample"}>| source</Link>
+      <Link href={"https://github.com/mmcgrana/gobyexample#license"}>license</Link>
+      </div>
     </div>
   );
 }
