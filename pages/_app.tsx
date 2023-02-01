@@ -46,9 +46,9 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Link href={"https://markmcgranaghan.com/"}> Mark McGranaghan</Link>
       <p>and</p>
       <Link href={"https://eli.thegreenplace.net/"}>Eli Bendersky</Link>
-      <Link href={"https://github.com/mmcgrana/gobyexample"}>| source</Link>
-      <Link href={"https://github.com/mmcgrana/gobyexample#license"}>license</Link>
       </div>
+      <Link href={"https://github.com/mmcgrana/gobyexample"}>Source  |</Link>
+      <Link href={"https://github.com/mmcgrana/gobyexample#license"}> License</Link>
     </div>
   );
 }
