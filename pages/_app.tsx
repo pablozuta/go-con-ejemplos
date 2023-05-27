@@ -13,6 +13,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <div className="container">
       <Head>
         <title>Go by Example</title>
+        <link rel="shortcut icon" href="https://www.svgrepo.com/show/445789/golang.svg" />
       </Head>
       <nav className="barra-navegacion">
         <div className="go-con-ejemplos">
